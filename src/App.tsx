@@ -150,6 +150,7 @@ export default function App() {
         </DropArea>
         <TwitchChat>
           <Title>Pastinder</Title>
+          {/* TODO: Переместить за основное сообщение */}
           <MessagePlaceholder>
             <Message
               username="CopyDePasta"
@@ -186,6 +187,7 @@ export default function App() {
           />
           <div style={{ flexGrow: 1 }}></div>
           <ButtonsContainer>
+            {/* TODO: накинуть sendReaction */}
             <Button variant="danger">Осуждаю</Button>
             <Button background="#e32597">
               <Icon path={mdiHeart} size={0.8} />
